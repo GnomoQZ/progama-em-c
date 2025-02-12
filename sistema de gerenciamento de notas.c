@@ -31,7 +31,17 @@ int main (){
        case 2:
         printf("Determinar Status\n");
         printf("Entre com valor da Media\n");
-        scanf("%f", &media)
+        scanf("%f", &media);
+        //media >=5 ? printf("APROVADO!\n") : printf("REPROVADO!\n");   
+        if (media >=7)
+        {
+            printf("APROVADO!\n");
+        } else if (media >=5)
+        {
+            printf("Recuperação!\n");
+        } else{
+            printf("Reprovado!\n");
+        }    
         break;
        case 3:
         printf("Sair do progama...\n");
