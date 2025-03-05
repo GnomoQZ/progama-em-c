@@ -21,6 +21,15 @@
        {
             printf("%d ", i);
        }
+       printf("\n\n");
+       //Controle do loop usando "continue" ou "break"
+       for (int i = 0; i < 10; i++)
+       {
+        if (i == 5) continue; //Pula a interação quando i for igual 5
+        if (i == 8) break; // sai do loop quando i for igual a 8 
+        printf("%d ", i);
+        }
+        
        
        return 0;
     }
