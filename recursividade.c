@@ -10,9 +10,8 @@ void recucivo(int numero){
 
 int main(){
 
-    int quantidade = 10;
-    recucivo(quantidade);   
-    printf("Contagem regressiva....");
+    int quantidade = 10;  
+    printf("Contagem regressiva....\n");
     recucivo(quantidade);
     
 
