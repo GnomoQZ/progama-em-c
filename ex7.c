@@ -19,7 +19,10 @@ int main(){
     scanf("%d", &index);
 
     printf("A nota do %s são: %s, %s \n", nomesAlunos[index][0], nomesAlunos[index][1], nomesAlunos[index][2] );
-    printf("%s",nomesAlunos[3][3]);
 
+    int matris [2][2] = {
+        {0},{1},
+        {2},{3}
+    };
     return 0;
 }
