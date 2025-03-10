@@ -1,12 +1,15 @@
 #include <stab.h>
 
 int main(){
-    // ARRAYS
+    // ARRAYS vertor
         char *nome[] = {"Amanda","carol","Raphaela"};
+        //int *nume1[] = {1,3,4,5}
         int i;
-        for ( i = 0; i < 2; i++)
+        for ( i = 0; i < 4; i++)
         {
-            printf("%s",nome[i]);
+            printf("%s\n",nome[i]);
+            
+        
         }
         
 
